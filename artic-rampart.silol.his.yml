@@ -1,0 +1,15 @@
+name: artic-rampart
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - nodejs[version='>=12']
+  - artic-network::rampart
+  - pip
+  - python[version='>=3.6']
+  - anaconda::biopython
+  - snakemake-minimal=5.8.1
+  - minimap2=2.17
+prefix: /home/tantip/miniconda3/envs/artic-rampart
